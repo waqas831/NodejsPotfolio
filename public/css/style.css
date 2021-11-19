@@ -1,0 +1,74 @@
+*{
+    font-family: 'Satisfy', cursive;
+}
+.indent{
+    text-indent: 50px;
+}
+.first{
+    margin-right: 15px;
+}
+.second{
+    margin-left: 15px;
+}
+.name{
+    color:yellow;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+.detail{
+    color:grey;
+    text-transform: capitalize;
+    font-size:20px;
+}
+.services{
+    color:yellow;
+    font-size:34px;
+    font-weight: bold;
+}
+.iconcolor{
+    color:green;
+    font-size: 22px;
+    font-weight: bold;
+}
+.footer{
+    width:600px;
+}
+.flex23{
+    display:flex;
+    margin-top:40px;
+    padding-top:10px;
+    padding-bottom:20px;
+    margin-left:370px;
+}
+
+.flex23 div{
+    margin:10px;
+    color:green;
+    font-size:20px;
+}
+
+@media only screen and (max-width:600px){
+    .flex23{
+        display: flex;
+        flex-direction: row;
+        margin:0;
+        padding:0;
+    }
+}
+@media only screen and (max-width:800px){
+    .flex23{
+        display: flex;
+        flex-direction: row;
+        margin-right:15;
+        padding:0;
+    }
+}
+@media only screen and (max-widt:400){
+    .flex23{
+        display: flex;
+        flex-direction: row;
+        margin-right:25;
+        padding:0;
+    }
+}
